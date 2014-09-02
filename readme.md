@@ -96,18 +96,19 @@ if ($resp->Approved) {
 ```
 
 ### Void Transaction
+
 To void a transaction:
 
 Functional API:
 ```php
 $risepay = new Risepay ("demo","demo");
 
-$data['NameOnCard']= "";
-$data['CardNum']="";
-$data['ExpDate']="";
-$data['Amount']="10";
-$data['CVNum']="";
-
+$data['NameOnCard'] = "John Doe";
+$data['CardNum'] = "4111111111111111";
+$data['ExpDate'] = "1215";
+$data['Amount'] = "10";
+$data['CVNum'] = "734";
+$data['PNRef'] = "24324";
 
 $resp = $risepay->void($data);
 
@@ -121,19 +122,19 @@ if ($resp->Approved) {
 ```
 
 ### Capture Transaction
-To capture a previously Authed transaction:
+
+To capture a previously Authorized transaction:
 
 Functional API
 ```php
 $risepay = new Risepay ("demo","demo");
 
-$data['NameOnCard']= "";
-$data['CardNum']="";
-$data['ExpDate']="";
-$data['Amount']="10";
-$data['CVNum']="";
-
-
+$data['NameOnCard'] = "John Doe";
+$data['CardNum'] = "4111111111111111";
+$data['ExpDate'] = "1215";
+$data['Amount'] = "10";
+$data['CVNum'] = "734";
+$data['PNRef'] = "24324";
 
 $resp = $risepay->capture($data);
 
@@ -147,19 +148,20 @@ if ($resp->Approved) {
 ```
 
 ### Return Transaction
-To return a transaction:
+
+To return a payment for already batched transaction:
 
 Functional API
 
 ```php
 $risepay = new Risepay ("demo","demo");
 
-$data['NameOnCard']= "";
-$data['CardNum']="";
-$data['ExpDate']="";
-$data['Amount']="10";
-$data['CVNum']="";
-
+$data['NameOnCard'] = "John Doe";
+$data['CardNum'] = "4111111111111111";
+$data['ExpDate'] = "1215";
+$data['Amount'] = "10";
+$data['CVNum'] = "734";
+$data['PNRef'] = "24324";
 
 $resp = $risepay->returnTrans($data);
 
