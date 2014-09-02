@@ -3,8 +3,16 @@ RisePay-PHP -- Simple Risepay Payment API wrapper
 <hr>
 ### Table of Contents
 **[Initialization](#initialization)**
+
 **[Sale Transaction](#sale-transaction)**
-ADD MORE
+
+**[Auth Transaction](#authorization-transaction)**
+
+**[Void Transaction](#void-transaction)**
+
+**[Return Transaction](#return-transaction)**
+
+**[Capture Transaction](#capture-transaction)**
 
 ### Initialization
 To utilize this class, first import Risepay.php into your project, and require it.
