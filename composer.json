@@ -1,0 +1,37 @@
+{
+
+	"name": "composer/Risepay-php",
+    "description": "Risepay-PHP library helps you to connect to the risepay API payment using a pure PHP language without framework.",
+    "keywords": ["package", "dependency", "autoload", "wrapper","php","library","risepay"],
+    "homepage": "http://www.risepay.com/",
+    "type": "library",
+    "license": "",
+    "authors": [
+        {
+            "name": "Jhonnatan Rodriguez"        
+        },
+        {
+            "name": "Francisco Perez"    
+        },
+        {
+            "name": "Alexander Butenko"
+            
+        },
+        {
+            "name": "Kamel Bacha"
+        }
+
+    ],
+    "support": {
+        "email": "contactus@risepay.com",
+        "telephone number": "888-582-6859"
+    },
+    "require": {
+        "php": "*"
+    },
+    "suggest": {
+        "ext-zip": "Enabling the zip extension allows you to unzip archives, and allows gzip compression of all internet traffic",
+        "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages"
+    }
+
+}
