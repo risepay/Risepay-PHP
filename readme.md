@@ -1,6 +1,9 @@
 RisePay-PHP -- Simple Risepay Payment API wrapper
 
 <hr>
+You can request developer credentials from our <a href='http://sales.risepay.com/rise-dev-access.html'>Dev Portal</a>; if you would like to certify your application, then submit a <a href='http://sales.risepay.com/rise-cert-lab-access.html'>Cert Lab request</a>.
+<hr>
+
 ### Table of Contents
 **[Initialization](#initialization)**
 
