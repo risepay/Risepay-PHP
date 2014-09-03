@@ -1,6 +1,6 @@
 {
 
-	"name": "composer/Risepay-php",
+	"name": "composer/risepay-php",
     "description": "Risepay-PHP library helps you to connect to the risepay API payment using a pure PHP language without framework.",
     "keywords": ["package", "dependency", "autoload", "wrapper","php","library","risepay"],
     "homepage": "http://www.risepay.com/",
